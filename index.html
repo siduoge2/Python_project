@@ -1,22 +1,28 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Two Years！</title>
+ <head>
+  <title>CELEBRATE TWO YEARS</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--IE10-->
+  <meta http-equiv="X-UA-Compatible" content="IE=7,IE=8,IE=9,IE=10"/>
+  <meta name=”renderer” content=”webkit|ie-comp|ie-stand”/>
+  <!-- CSS styles -->
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
 
-<style type="text/css">
-@font-face {
-	font-family: digit;
-	src: url('digital-7_mono.ttf') format("truetype");
-}
-</style>
-
-<link href="css/default.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/garden.js"></script>
-<script type="text/javascript" src="js/functions.js"></script>
-
-</head>
+  <!--JavaScript-->
+  <link rel="stylesheet" href="css/default.css" type="text/css">
+  <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/garden.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/functions.js" type="text/javascript" charset="utf-8"></script>
+     <!--[if IE 7]>    <html class="no-js ie7 ie" lang="en"> <![endif]-->
+     <!--[if IE 8]>    <html class="no-js ie8 ie" lang="en"> <![endif]-->
+     <!--[if IE 9]>    <html class="no-js ie9 ie" lang="en"> <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+ </head>
 
 <body>
 
@@ -26,8 +32,8 @@
 			<span class="comments">/**</span><br />
 			<span class="space"/><span class="comments">*2016-05-20.</span><br />
 			<span class="space"/><span class="comments">*/</span><br />
-			<span class="keyword">Boy name = 辉辉</span><br />
-			<span class="keyword">Girl name = 荣荣</span><br />
+			<span class="keyword">A Boy : Huihui</span><br />
+			<span class="keyword">A Girl : Rongrongt</span><br />
 			<span class="keyword">Fall in love river. </span><br />
 			<span class="comments">// The boy loves the girl;</span><br />
 			<span class="comments">// The girl loves the boy;</span><br />
@@ -46,7 +52,7 @@
 			<br>
 			<br>
 			<span class="keyword">I want to say:</span><br />
-			<span class="keyword">荣荣, I love you forever;</span><br />
+			<span class="keyword">Ronggong, I love you forever;</span><br />
 		</div>
 		<div id="loveHeart">
 			<canvas id="garden"></canvas>
@@ -56,12 +62,7 @@
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
-					爱你直到永永远远。<br/> <br/> 
-
-                    <a href ="http://www.baidu.com">点我&emsp;&ensp;&emsp;&ensp;.  </a>   <br/>
-				</div>
-				<div id="loveu">
-					点我有惊喜呦。<br/>
+					爱你直到永永远远。<br/> <br/>
 				</div>
 			</div>
 		</div>
@@ -81,7 +82,7 @@ together.setMilliseconds(0);
 if (!document.createElement('canvas').getContext) {
 	var msg = document.createElement("div");
 	msg.id = "errorMsg";
-	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	msg.innerHTML = "Your browser doesn't support HTML5!&lt;br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
 	document.body.appendChild(msg);
 	$("#code").css("display", "none")
 	$("#copyright").css("position", "absolute");
@@ -101,6 +102,9 @@ if (!document.createElement('canvas').getContext) {
 	$("#code").typewriter();
 }
 </script>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://play.baidu.com/?__methodName=mboxCtrl.playSong&fm=altg&__argsValue=1180313#"></iframe>
+    <audio autoplay = "autoplay" loop = "loop" preload = "auto">
+        <source  src = "http://music.163.com/song/media/outer/url?id=399353366.mp3" type = "audio/mp3">
+    </audio>
+
 </body>
 </html>
