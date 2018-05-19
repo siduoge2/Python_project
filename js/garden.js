@@ -187,11 +187,11 @@
 	        return 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
 	    };
 	    Garden.randomrgba = function (rmin, rmax, gmin, gmax, bmin, bmax, a) {
-			var r = Math.round(Garden.random(rmin, rmax));
-			var g = Math.round(Garden.random(gmin, gmax));
-			var b = Math.round(Garden.random(bmin, bmax));
-			var limit = 5;
-			if (Math.abs(r - g) <= limit && Math.abs(g - b) <= limit && Math.abs(b - r) <= limit) {
+            let r = Math.round(Garden.random(rmin, rmax));
+            let g = Math.round(Garden.random(gmin, gmax));
+            let b = Math.round(Garden.random(bmin, bmax));
+            let limit = 5;
+            if (Math.abs(r - g) <= limit && Math.abs(g - b) <= limit && Math.abs(b - r) <= limit) {
 				return Garden.rgba(rmin, rmax, gmin, gmax, bmin, bmax, a);
 			} else {
 				return Garden.rgba(r, g, b, a);
